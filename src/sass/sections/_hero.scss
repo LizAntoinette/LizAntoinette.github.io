@@ -4,9 +4,9 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: $base-color;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: $text-color;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -50,6 +50,8 @@
     }
   }
 
+
+
   .hero-cta {
     display: flex;
 
@@ -64,5 +66,29 @@
         font-size: 2rem;
       }
     }
+
+  }
+
+  .gold-text{
+    color: $foam-color;
+  }
+
+  .pine-text{
+    color:$pine-color
+  }
+
+  #particles-js canvas {
+     -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
   }
 }
