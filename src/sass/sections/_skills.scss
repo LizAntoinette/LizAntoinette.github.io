@@ -16,6 +16,10 @@
     clip-path: none;
   }
 
+  .progress-bar{
+    color: $foam-color;
+  }
+
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;

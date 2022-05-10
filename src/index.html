@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/jpg" href="assets/logo.jpg" />
+    <link rel="shortcut icon" type="image/png" href="assets/logo12.png" />
 
     
     <title> Liz Antoinette Anguren || Software Engineer</title>
@@ -31,6 +31,28 @@
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
+
+    <!-- **** The Nav bar **** -->
+
+        <header id="header">
+          <a class="navbar-brand" id="logo" href="#">
+            <img src="assets/logo2.png"  width="90" height="60"  alt="">
+          </a>
+          
+          <nav id="nav">
+            <ul>
+              <li><a href="#hero" class="active">Home</a></li>
+              <li><a href="#skill">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+   
+    <!-- /END Navbar -->
+
+
     <div id="top"></div>
 
     <!-- **** Hero Section **** -->
@@ -51,29 +73,41 @@
     </section>
     <!-- /END Hero Section -->
 
-    <!-- **** About Section **** -->
+    <!-- **** Skill Section **** -->
     <section id="skill">
       <div class="container">
-        <h2 class="section-title load-hidden">Skill Sets</h2>
+        
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
+              <h2 class="section-title load-hidden">What I Do</h2>
               <p class="about-wrapper__info-text">
-                I'm a Software Engineer and previously a lecturer.
+                A Geeky Software Engineer who wants to explore every nook in Tech
               </p>
-              <p class="about-wrapper__info-text">
-                I'm fully committed to the philosophy of lifelong learning in this fast pace world of tech. My passion is combining creativity, problem-solving, and coding.
-              </p>
-              <span class="d-flex mt-3">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
-                >
-                  View Resume
+              <br>
+              <div class="progress">
+
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+             
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+                <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/work.png"
+                    />
+                  </div>
                 </a>
-              </span>
+              </div>
+
+              
             </div>
           </div>
         </div>
@@ -377,37 +411,12 @@
 
         <hr />
 
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
+          © 2022 - Liz Antoinette Anguren
+          
         </p>
 
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
+      
       </div>
     </footer>
     <!-- /END Footer Section -->
