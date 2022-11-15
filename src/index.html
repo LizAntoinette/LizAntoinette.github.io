@@ -15,7 +15,7 @@
 
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
     <script
@@ -24,7 +24,7 @@
     ></script>
 
     
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Todo: remove the below script once you finish your portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
@@ -34,18 +34,18 @@
 
     <!-- **** The Nav bar **** -->
 
-        <header id="header">
+        <header id="header" class="navbar">
           <a class="navbar-brand" id="logo" href="#">
-            <img src="assets/logo2.png"  width="90" height="60"  alt="">
+            <img src="assets/logo2.png"  width="95" height="65"  alt="">
           </a>
           
           <nav id="nav">
-            <ul>
-              <li><a href="#hero" class="active">Home</a></li>
-              <li><a href="#skill">Skills</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+            <ul class="nav">
+              <li class="nav-item active"><a href="#hero" >Home</a></li>
+              <li class="nav-item"><a href="#skill">Skills</a></li>
+              <li class="nav-item"><a href="#projects">Projects</a></li>
+              <li class="nav-item"><a href="#about">About</a></li>
+              <li class="nav-item"><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </header>
@@ -78,22 +78,98 @@
       <div class="container">
         
         <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-7 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <h2 class="section-title load-hidden">What I Do</h2>
-              <p class="about-wrapper__info-text">
+              <p >
                 A Geeky Software Engineer who wants to explore every nook in Tech
               </p>
               <br>
-              <div class="progress">
-
+              <!-- div class="progress">
+                
                     <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div> -->
+
+              <div class="software-skills-main-div">
+                <ul class="dev-icons">
+                  <li class="software-skill-inline" name="html-5">
+                    <i class="fab fa-html5"></i><p>html-5</p>
+                  </li>
+                  <li class="software-skill-inline" name="css3">
+                   <i class="fab fa-css3-alt"></i><p>css3</p>
+                  </li>
+                  <li class="software-skill-inline" name="sass">
+                   <i class="fab fa-sass"></i><p>sass</p>
+                  </li>
+                  <li class="software-skill-inline" name="JavaScript">
+                    <i class="fab fa-js"></i><p>JavaScript</p>
+                  </li>
+                  <li class="software-skill-inline" name="sql-database">
+                    <i class="fab fa-php"></i><p>php</p>
+                  </li>
+                  <li class="software-skill-inline" name="python">
+                    <i class="fab fa-python"></i><p>python</p>
+                  </li>
+                  <li class="software-skill-inline" name="npm">
+                    <i class="fab fa-java"></i><p>Java</p>
+                  </li>
+                  <li class="software-skill-inline" name="nodejs">
+                    <i class="fab fa-node"></i><p>nodejs</p>
+                  </li>
+                  <li class="software-skill-inline" name="reactjs">
+                    <i class="fab fa-vuejs"></i><p>vue.js</p>
+                  </li>
+                  <li class="software-skill-inline" name="reactjs">
+                    <i class="fab fa-react"></i><p>reactjs</p>
+                  </li>
+                  <li class="software-skill-inline" name="reactjs">
+                    <i class="fab fa-laravel"></i><p>Laravel</p>
+                  </li>
+                  
+                  <li class="software-skill-inline" name="sql-database">
+                    <i class="fas fa-database"></i><p>sql-database</p>
+                  </li>
+                   <li class="software-skill-inline" name="sql-database">
+                    <i class="fab fa-git-alt"></i><p>git</p>
+                  </li>
+                  <li class="software-skill-inline" name="sql-database">
+                    <i class="fa-brands fa-github"></i><p>Github</p>
+                  </li>
+                  <li class="software-skill-inline" name="sql-database">
+                    <i class="fa-brands fa-bitbucket"></i><p>Bitbucket</p>
+                  </li>
+                  <li class="software-skill-inline" name="sql-database">
+                     <i class="fab fa-aws"></i><p>aws</p>
+                  </li>
+                 <li class="software-skill-inline" name="sql-database">
+                     <i class="fas fa-fire"></i><p>firebase</p>
+                  </li>
+                  <li class="software-skill-inline" name="sql-database">
+                     <i class="fa-brands fa-linux"></i><p>Linux</p>
+                  </li>
+                </ul>
+
               </div>
+
+              <br>
+             <div class="skill-description">
+                  <p class="dark-mode subTitle skills-text">
+                    <img alt="🌷" draggable="false" src="https://twemoji.maxcdn.com/2/72x72/2728.png" style="height: 1em; width: 1em; margin: 0px 0.05em 0px 0.1em; vertical-align: -0.1em;"> Develop highly interactive Front end / User Interfaces for your web and software applications
+                  </p>
+                  <p class="dark-mode subTitle skills-text">
+                    <img alt="🌷" draggable="false" src="https://twemoji.maxcdn.com/2/72x72/2728.png" style="height: 1em; width: 1em; margin: 0px 0.05em 0px 0.1em; vertical-align: -0.1em;"> 
+                        Consistently create well-designed, tested code using best practices for website and software development, including mobile and responsive site design
+                  </p>
+                  <p class="dark-mode subTitle skills-text">
+                    <img alt="🌷" draggable="false" src="https://twemoji.maxcdn.com/2/72x72/2728.png" style="height: 1em; width: 1em; margin: 0px 0.05em 0px 0.1em; vertical-align: -0.1em;"> 
+                      Maintain updated knowledge of new and emerging industry trends and technology
+                  </p>
+                </div>
 
              
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-5 col-sm-12">
             <div class="about-wrapper__info load-hidden">
                 <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="#!" target="_blank">
@@ -119,9 +195,8 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title">Projects</h2>
+          <h2 class="section-title">Personal Projects</h2>
 
-          
 
           <!-- Notice: each .row is a project -->
           <div class="row">
@@ -139,16 +214,9 @@
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
                   Source Code
                 </a>
+                
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -164,56 +232,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">CoinflyerX</h3>
-                <div>
-                  <p class="mb-4">
-                    One of the Junior Front-end developer who worked on the project.
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/pathfinder.png"
                     />
                   </div>
                 </a>
@@ -239,16 +258,9 @@
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
                   Source Code
                 </a>
+                
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -264,7 +276,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/backprop.png"
                     />
                   </div>
                 </a>
@@ -291,16 +303,9 @@
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
                   Source Code
                 </a>
+               
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -316,7 +321,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/proginterpreter.png"
                     />
                   </div>
                 </a>
@@ -324,6 +329,13 @@
             </div>
           </div>
           <!-- /END Project -->
+
+
+          <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >See More</a
+          >
+        </p>
         </div>
       </div>
     </section>
@@ -333,28 +345,36 @@
      <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title load-hidden">About Me</h2>
+        
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
+
             <div class="about-wrapper__image load-hidden">
               <img
                 alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
+                class="img-fluid rounded"
                 height="auto"
-                width="300px"
-                src="assets/profile.jpg"
+                width="500px"
+                src="assets/me.png"
                 alt="Profile Image"
               />
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
+              <h2 class="section-title load-hidden">About Me</h2>
               <p class="about-wrapper__info-text">
                 I'm a Software Engineer and previously a lecturer.
               </p>
+              <br>
               <p class="about-wrapper__info-text">
-                I'm fully committed to the philosophy of lifelong learning in this fast pace world of tech. My passion is combining creativity, problem-solving, and coding.
+                I build an enjoyable web experience that solves client's problems and loves creating things that live on the internet. I'm fully committed to the philosophy of lifelong learning in this fast pace world of tech. My passion is combining creativity, problem-solving, and coding.
               </p>
+              <br>
+               <p class="about-wrapper__info-text">
+                Now, I am growing myself as a Software Engineer. I worked hard and gained some experience in the field of software and web development and still trying to improve my skills more.
+              </p>
+
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
@@ -378,13 +398,13 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">Have a question or want to work together? Click the button below and contact me through email.</p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:lizanguren12@gmail.com"
+            >Send a message</a
           >
         </div>
       </div>
@@ -398,14 +418,12 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
+          
+          <a rel="noreferrer" href="https://www.linkedin.com/in/liz-anguren/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
+          <a rel="noreferrer" href="https://github.com/LizAntoinette" target="_blank">
+            <i class="fa-brands fa-github"></i>
           </a>
         </div>
 
