@@ -1,0 +1,87 @@
+#header {
+        
+        cursor: default;
+        left: 0;
+        line-height: 3.5em;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 7.5rem;
+        z-index: 100;
+    
+
+        .navbar-brand {
+            height: inherit;
+            left: 1.25em;
+            line-height: inherit;
+            margin: 0;
+            position: absolute;
+            top: 0;
+        }
+
+        li.active{
+            color: $white-color !important;
+            font-weight: bold;
+        }
+
+
+        nav {
+            position: absolute;
+            right: 2rem;
+            top: 0.7rem;
+            
+            ul {
+                margin-top: 1.5em;
+                li {
+                    display: inline-block;
+                    margin-left: 2em;
+                    margin-right: 2em;
+
+                    
+                    a, span {
+                        border: 0;
+                        color: $text-color;
+                        
+                        display: inline-block;
+                        height: inherit;
+                        line-height: inherit;
+                        outline: 0;
+
+                       
+
+                        
+                        .button {
+                            height: 2em;
+                            line-height: 2em;
+                            padding: 0 1.25em;
+                        }
+
+                        :not(.button):before {
+                            margin-right: 0.5em;
+                        }
+
+                       
+                        
+
+
+                    }
+
+
+
+
+                    
+                    
+                }
+
+                
+               
+                a:hover {
+                    color: $pink-color !important;
+                }
+
+                li > ul {
+                    display: none;
+                }
+            }
+        }
+}
