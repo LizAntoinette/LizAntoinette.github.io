@@ -1,26 +1,26 @@
 {
-  "name": "simplefolio",
+  "name": "LizAntoinette.github.io",
   "version": "1.0.1",
-  "private": "true",
+  "private": "",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "https://github.com/LizAntoinette/LizAntoinette.github.io"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
+    "url": "https://github.com/LizAntoinette/LizAntoinette.github.io"
   },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "homepage": "https://github.com/LizAntoinette/LizAntoinette.github.io",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.0.1",
     "prettier": "^2.4.1"
   },
